@@ -1,0 +1,7 @@
+.vscode
+node_modules
+dist
+.babelrc
+.prettierrc
+package.json
+tsconfig.json
