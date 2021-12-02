@@ -1,5 +1,5 @@
 // base setup
-import fs from 'fs';
+const fs = require('fs');
 const data = fs.readFileSync('./input.txt', 'utf8');
 const numberArray = data.split('\n').map((txtNumber) => Number(txtNumber));
 
