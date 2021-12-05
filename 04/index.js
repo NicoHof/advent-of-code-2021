@@ -1,6 +1,5 @@
 // base setup
 const fs = require('fs');
-const { builtinModules } = require('module');
 const data = fs.readFileSync('./input.txt', 'utf8');
 const rawSplit = data.split('\n');
 const drawList = rawSplit[0].split(',').map((txtNumber) => Number(txtNumber));
