@@ -132,10 +132,6 @@ const part2 = () => {
         }
     }
 
-    const sorted = basins.sort(function (a, b) {
-        return b - a;
-    });
-
     return basins
         .sort((a, b) => {
             return b - a;
